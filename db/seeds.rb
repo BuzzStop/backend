@@ -8,57 +8,37 @@
 
 routes = Route.create!([
    {
-       name: 'Route One'
-   },
-   {
-       name: 'Route Two'
-   },
-   {
-       name: 'Route Three'
-   },
+       name: 'Virtual Bus'
+   }
 ])
 
 Stop.create!([
  {
      route: routes[0],
-     name:  'Stop One',
-     lat:   1.23456,
-     lon:   1.23456,
+     name:  'Queensway Moor Street Link Bus Stop',
+     lat:   52.477815,
+     lon:   -1.896033,
      order: 10
  },
  {
      route: routes[0],
-     name:  'Stop Two',
-     lat:   1.23456,
-     lon:   1.23456,
+     name:  'New Street - Corporation St Intersection (Primark)',
+     lat:   52.479072,
+     lon:   -1.897813,
      order: 20
  },
  {
      route: routes[0],
-     name:  'Stop Three',
-     lat:   1.23456,
-     lon:   1.23456,
+     name:  'Muji',
+     lat:   52.479134,
+     lon:   -1.898489,
      order: 30
  },
  {
      route: routes[0],
-     name:  'Stop Four',
-     lat:   1.23456,
-     lon:   1.23456,
+     name:  'The Studio',
+     lat:   52.479672,
+     lon:   -1.898164,
      order: 40
- },
- {
-     route: routes[0],
-     name:  'Stop Five',
-     lat:   1.23456,
-     lon:   1.23456,
-     order: 50
- },
- {
-     route: routes[0],
-     name:  'Stop Six',
-     lat:   1.23456,
-     lon:   1.23456,
-     order: 60
- },
+ }
 ])
