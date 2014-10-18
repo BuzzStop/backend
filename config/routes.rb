@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'pages#home'
   resources :routes, only: [:index, :show], :defaults => { :format => 'json' }
 
   # The priority is based upon order of creation: first created -> highest priority.
