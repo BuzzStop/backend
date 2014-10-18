@@ -7,38 +7,44 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 routes = Route.create!([
-   {
-       name: 'Virtual Bus'
-   }
+ {
+   name: 'Virtual Bus'
+ },
+ {
+   name: 'Stairway to Heaven'
+ },
+ {
+   name: 'Highway to Hell'
+ },
 ])
 
 Stop.create!([
  {
-     route: routes[0],
-     name:  'Queensway Moor Street Link Bus Stop',
-     lat:   52.477815,
-     lon:   -1.896033,
-     order: 10
+   route: routes[0],
+   name:  'Queensway Moor Street Link Bus Stop',
+   lat:   52.477815,
+   lon:   -1.896033,
+   order: 10
  },
  {
-     route: routes[0],
-     name:  'New Street - Corporation St Intersection (Primark)',
-     lat:   52.479072,
-     lon:   -1.897813,
-     order: 20
+   route: routes[0],
+   name:  'New Street - Corporation St Intersection (Primark)',
+   lat:   52.479072,
+   lon:   -1.897813,
+   order: 20
  },
  {
-     route: routes[0],
-     name:  'Muji',
-     lat:   52.479134,
-     lon:   -1.898489,
-     order: 30
+   route: routes[0],
+   name:  'Muji',
+   lat:   52.479134,
+   lon:   -1.898489,
+   order: 30
  },
  {
-     route: routes[0],
-     name:  'The Studio',
-     lat:   52.479672,
-     lon:   -1.898164,
-     order: 40
+   route: routes[0],
+   name:  'The Studio',
+   lat:   52.479672,
+   lon:   -1.898164,
+   order: 40
  }
 ])
