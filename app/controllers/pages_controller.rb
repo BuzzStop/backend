@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
+  layout false
+
   def home
-    redirect_to 'http://buzzstop.github.io/frontend/'
   end
 end
