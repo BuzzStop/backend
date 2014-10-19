@@ -24,6 +24,10 @@
 #version {
 	display: none;
 	}
+
+#icon {
+    display: none;
+}
 	
 }
 
@@ -56,7 +60,11 @@
 #version {
 	display: none;
 	}
-	
+
+    #icon {
+        display: none;
+    }
+
 #phones {
 	text-align: center;
 	margin-top: 20px;
@@ -116,6 +124,10 @@
 .version {
 	float:none;
 	}
+
+    #icon {
+        display: none;
+    }
 
 .release-date {
 	float: none;

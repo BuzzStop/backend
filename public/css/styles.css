@@ -82,6 +82,11 @@ h2 {
 	margin-right: 20px;
 }
 
+#app-name img {
+    max-width: 100%;
+    height: auto;
+}
+
 #app-name h1 {
 	font-size: 5.5em;
 	font-size: 5.5em;
